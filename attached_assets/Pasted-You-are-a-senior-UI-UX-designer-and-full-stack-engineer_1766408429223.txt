@@ -1,0 +1,179 @@
+You are a senior UI/UX designer and full-stack engineer.
+
+Build a highly professional, premium personal portfolio website for a software engineer named **Darsika Nagaraja**.
+
+This website must look like a **modern 3D, glass-morphism, enterprise-level product**, NOT a childish or playful site.
+
+========================
+VISUAL & INTERACTION STYLE
+========================
+• Overall style: **3D Glass UI / Glassmorphism / Neo-futuristic**
+• Color palette: Deep navy / dark blue / charcoal background with subtle gradients
+• Accent colors: Soft cyan, electric blue, violet highlights
+• Typography: Clean, modern, professional (Inter / Poppins / SF Pro style)
+• No cartoon icons, no bright childish colors, no gimmicks
+
+========================
+3D & ANIMATION REQUIREMENTS (VERY IMPORTANT)
+========================
+• Mouse-interactive background:
+  - Background reacts to mouse movement (parallax tilt, depth shift, light reflection)
+  - Smooth 3D perspective movement, not aggressive
+
+• All UI elements must be 3D:
+  - Buttons lift slightly on hover
+  - Cards tilt toward cursor
+  - Soft glow and shadow on hover
+  - Glass blur + border glow effect
+
+• Scroll animations:
+  - Elements animate in on scroll down (fade + slide + depth)
+  - Reverse animation when scrolling up
+  - Buttons and cards subtly re-animate on re-enter
+  - No janky or excessive motion
+
+• Micro-interactions:
+  - Hover glow on text, buttons, icons
+  - Smooth easing, premium feel
+  - Everything feels “alive” but elegant
+
+========================
+WEBSITE STRUCTURE
+========================
+
+1. HERO SECTION
+• Name: **Darsika Nagaraja**
+• Title: Software Engineer | Software Development | Full Stack Development
+• Short tagline:
+  "Building scalable, user-centric web and mobile applications with modern technologies."
+• CTA buttons:
+  - View Projects
+  - Contact Me
+• 3D animated background reacting to mouse movement
+
+========================
+2. ABOUT / PROFESSIONAL SUMMARY
+========================
+Content:
+Motivated and detail-oriented Information Technology undergraduate (SLIIT, 3rd Year) with hands-on experience in full-stack development, mobile app development, and modern web technologies. Skilled in building scalable, user-friendly applications and implementing end-to-end solutions across web and mobile platforms. Strong problem-solving ability, adaptability, and passion for continuous learning.
+
+========================
+3. KEY ACHIEVEMENTS (3D CARDS)
+========================
+• Developed **3 full-stack systems** (Clothing, Customer Care, Property Sales) with authentication, CRUD, payments, role-based access
+• Built **30+ responsive UI screens** using React, Tailwind CSS, Android XML
+• Optimized MySQL & MongoDB databases achieving **20% faster data retrieval**
+• Created reusable components in React & Kotlin reducing duplication by **30%**
+• Implemented form validation, notifications, habit tracking & reminders
+• Delivered full documentation (Figma, ER diagrams, GitHub repositories)
+
+========================
+4. PROJECTS SECTION (MAIN FOCUS)
+========================
+
+Each project displayed as a **3D glass card** with hover tilt, glow, and depth.
+
+PROJECT 1:
+Online Clothing Store System (Y2S2)
+• MERN stack e-commerce platform
+• Authentication, product catalog, inventory, payments, order tracking
+• REST APIs with Node.js & Express
+• MongoDB schema design
+• Tech Stack: MongoDB, Express, React, Node.js
+• GitHub: https://github.com/Darsika633/web-project2
+
+PROJECT 2:
+Mobile App Development (Y2S2)
+• Android apps with onboarding, validation, notifications
+• Habit tracking & hydration reminders
+• Kotlin + XML UI
+• SharedPreferences for local storage
+• Tech Stack: Android Studio, Kotlin, XML
+• GitHub: https://github.com/Darsika633/MobileApp
+
+PROJECT 3:
+Online Customer Care System (Y2S1)
+• Appointment booking, ticket management, feedback
+• Integrated payment workflow
+• Modular Java backend
+• Dynamic UI using Tailwind CSS & Alpine.js
+• Tech Stack: HTML, Tailwind CSS, Alpine.js, Java, MySQL
+• GitHub: https://github.com/Darsika633/web-project3
+
+PROJECT 4:
+Online Property Sales System (Y1S2)
+• Full-stack web app with authentication & role-based access
+• CRUD operations
+• REST-based frontend-backend communication
+• Optimized MySQL queries
+• Tech Stack: HTML, CSS, JavaScript, PHP, MySQL
+• GitHub: https://github.com/Darsika633/web-projects
+
+========================
+5. SKILLS SECTION
+========================
+Display as animated 3D skill pills or cards.
+
+Frontend:
+HTML, CSS, JavaScript, Tailwind CSS, React
+
+Backend:
+PHP, Java, Node.js, Express.js
+
+Databases:
+MySQL, MongoDB
+
+Mobile:
+Android Studio, Kotlin, XML, SharedPreferences
+
+Tools:
+Git, GitHub, Figma
+
+Concepts:
+OOP, MVC, Data Structures & Algorithms
+
+Soft Skills:
+Communication, Teamwork, Problem-Solving, Adaptability, Time Management, Critical Thinking
+
+========================
+6. EDUCATION
+========================
+BSc (Hons) in Information Technology (Specialization in IT)
+SLIIT
+Oct 2023 – Expected 2027
+
+========================
+7. CERTIFICATIONS
+========================
+• Indexing Design Fundamentals – MongoDB (Dec 2025)
+• MongoDB Basics for Students – MongoDB (Dec 2025)
+• Python for Beginners – CODL, University of Moratuwa (Dec 2025)
+• AI/ML Engineer – Stage 1 – SLIIT (Dec 2025)
+
+========================
+8. LANGUAGES
+========================
+• English – Advanced
+• Sinhala – Advanced
+• Tamil – Native
+
+========================
+9. CONTACT SECTION
+========================
+Location: Colombo, Sri Lanka  
+Email: darsikanagaraja@gmail.com  
+Phone: +94 765 448 776  
+LinkedIn: https://linkedin.com/in/darsika-nagaraja-25584b338  
+
+Contact form with animated 3D inputs and hover glow.
+
+========================
+FINAL QUALITY RULES
+========================
+• Must look like a **premium SaaS / startup website**
+• Smooth performance, no laggy animations
+• Professional, elegant, modern
+• Strong depth, lighting, and motion
+• NO childish visuals
+
+Build this as a complete, responsive, high-end portfolio website.
