@@ -103,17 +103,17 @@ export default function Contact() {
 
               <div className="flex flex-col text-left">
                 <label htmlFor="name" className="text-white/80 text-sm font-medium mb-2 pl-1">Name</label>
-                <input type="text" id="name" name="name" required className="bg-black/20 border border-white/10 rounded-xl px-5 py-3.5 text-white placeholder-white/30 focus:outline-none focus:border-cyan-500 focus:ring-1 focus:ring-cyan-500 transition-all font-light" placeholder="John Doe" />
+                <input type="text" id="name" name="name" required className="bg-black/20 border border-white/10 rounded-xl px-5 py-3.5 text-white placeholder-white/30 focus:outline-none focus:border-cyan-500 focus:ring-1 focus:ring-cyan-500 transition-all font-light" />
               </div>
 
               <div className="flex flex-col text-left">
                 <label htmlFor="email" className="text-white/80 text-sm font-medium mb-2 pl-1">Email</label>
-                <input type="email" id="email" name="email" required className="bg-black/20 border border-white/10 rounded-xl px-5 py-3.5 text-white placeholder-white/30 focus:outline-none focus:border-cyan-500 focus:ring-1 focus:ring-cyan-500 transition-all font-light" placeholder="john@example.com" />
+                <input type="email" id="email" name="email" required className="bg-black/20 border border-white/10 rounded-xl px-5 py-3.5 text-white placeholder-white/30 focus:outline-none focus:border-cyan-500 focus:ring-1 focus:ring-cyan-500 transition-all font-light" />
               </div>
 
               <div className="flex flex-col text-left">
                 <label htmlFor="message" className="text-white/80 text-sm font-medium mb-2 pl-1">Message</label>
-                <textarea id="message" name="message" required rows={4} className="bg-black/20 border border-white/10 rounded-xl px-5 py-3.5 text-white placeholder-white/30 focus:outline-none focus:border-cyan-500 focus:ring-1 focus:ring-cyan-500 transition-all font-light resize-none" placeholder="Tell me about your project..."></textarea>
+                <textarea id="message" name="message" required rows={4} className="bg-black/20 border border-white/10 rounded-xl px-5 py-3.5 text-white placeholder-white/30 focus:outline-none focus:border-cyan-500 focus:ring-1 focus:ring-cyan-500 transition-all font-light resize-none"></textarea>
               </div>
 
               <button
