@@ -154,13 +154,31 @@ export default function Hero() {
           initial={{ opacity: 0, scale: 0.85 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.6 }}
-          className="relative w-64 h-80 sm:w-72 sm:h-96 md:w-80 md:h-[28rem] flex-shrink-0 mt-8 lg:mt-0"
+          className="relative flex-shrink-0 mt-8 lg:mt-0 flex items-center justify-center"
         >
-          <div className="absolute -inset-4 bg-cyan-500/20 rounded-3xl blur-3xl" />
+          {/* Soft glow behind */}
+          <div className="absolute w-72 h-72 sm:w-80 sm:h-80 md:w-96 md:h-96 bg-cyan-500/20 rounded-full blur-3xl" />
+
+          {/* Spinning gradient ring */}
+          <motion.div
+            animate={{ rotate: 360 }}
+            transition={{ duration: 6, repeat: Infinity, ease: "linear" }}
+            className="absolute w-64 h-64 sm:w-72 sm:h-72 md:w-80 md:h-80 rounded-full"
+            style={{
+              background:
+                "conic-gradient(from 0deg, #06b6d4, #3b82f6, #a855f7, #06b6d4)",
+              padding: "3px",
+              borderRadius: "50%",
+            }}
+          >
+            <div className="w-full h-full rounded-full bg-background" />
+          </motion.div>
+
+          {/* Profile photo */}
           <img
             src="/Darsika.png"
             alt="Darsika Nagaraja"
-            className="relative w-full h-full object-cover rounded-3xl border-4 border-cyan-500/30 shadow-xl"
+            className="relative w-60 h-60 sm:w-[17rem] sm:h-[17rem] md:w-[19rem] md:h-[19rem] object-cover rounded-full shadow-xl z-10"
           />
         </motion.div>
       </div>
