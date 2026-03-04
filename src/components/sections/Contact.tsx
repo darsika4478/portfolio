@@ -7,15 +7,7 @@ export default function Contact() {
   const email = "darsikanagaraja@gmail.com";
   const phone = "+94765448776";
 
-  // Opens Gmail compose in browser
-  const openEmailInBrowser = () => {
-    const subject = encodeURIComponent("Hiring Inquiry");
-    const body = encodeURIComponent(
-      "Hi Darsika,\n\nI hope you're doing well. I would like to discuss potential collaboration or opportunities with you.\n\nBest regards,\n"
-    );
-    const gmailLink = `https://mail.google.com/mail/?view=cm&fs=1&to=${email}&su=${subject}&body=${body}`;
-    window.open(gmailLink, "_blank");
-  };
+
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -68,7 +60,7 @@ export default function Contact() {
 
             <div className="space-y-6 pt-4">
               {/* Email */}
-              <a onClick={openEmailInBrowser} className="flex items-center gap-5 group cursor-pointer w-max">
+              <a href={`mailto:${email}`} className="flex items-center gap-5 group cursor-pointer w-max">
                 <div className="w-14 h-14 rounded-full bg-white/5 border border-white/10 flex items-center justify-center group-hover:bg-cyan-500/20 transition-all duration-300">
                   <Mail className="w-6 h-6 text-cyan-400" />
                 </div>

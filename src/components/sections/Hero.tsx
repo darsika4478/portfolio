@@ -52,16 +52,7 @@ function StarField(props: ThreeElements["group"]) {
 export default function Hero() {
   const photoRef = useRef<HTMLDivElement | null>(null);
 
-  // Gmail compose in browser
-  const openGmail = () => {
-    const email = "darsikanagaraja@gmail.com";
-    const subject = encodeURIComponent("Hiring Inquiry");
-    const body = encodeURIComponent(
-      "Hi Darsika,\n\nI would like to discuss potential collaboration or opportunities with you."
-    );
-    const gmailLink = `https://mail.google.com/mail/?view=cm&fs=1&to=${email}&su=${subject}&body=${body}`;
-    window.open(gmailLink, "_blank");
-  };
+
 
   return (
     <section className="relative w-full min-h-screen flex items-center justify-center overflow-x-hidden pt-28 pb-12 px-6 lg:px-16">
@@ -139,12 +130,12 @@ export default function Hero() {
               <Linkedin size={24} />
             </a>
 
-            <button
-              onClick={openGmail}
+            <a
+              href={`mailto:darsikanagaraja@gmail.com`}
               className="focus:outline-none hover:text-cyan-400 transition-colors"
             >
               <Mail size={24} />
-            </button>
+            </a>
           </div>
         </motion.div>
 
