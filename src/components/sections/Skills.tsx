@@ -25,6 +25,7 @@ const skillCategories = [
 ];
 
 const certifications = [
+  "MongoDB Data Modeling Path – MongoDB",
   "Indexing Design Fundamentals – MongoDB",
   "MongoDB Basics for Students",
   "Python for Beginners – UoM",

@@ -102,7 +102,7 @@ export default function Hero() {
             </motion.a>
 
             <motion.a
-              href="/Darsika_CV.pdf"
+              href="/Darsika_cv.pdf"
               download
               className="px-8 py-4 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-bold text-lg flex items-center gap-2 shadow-md"
             >

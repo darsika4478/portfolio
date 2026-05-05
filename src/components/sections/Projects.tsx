@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import GlassCard from "../ui/GlassCard";
-import { ExternalLink, Github, ShoppingBag, Home, Smartphone, Headphones } from "lucide-react";
+import { ExternalLink, Github, ShoppingBag, Home, Smartphone, Headphones, Building, Music } from "lucide-react";
 
 const projects = [
   {
@@ -38,6 +38,24 @@ const projects = [
     github: "https://github.com/darsika4478/web-projects.git",
     icon: <Home size={32} className="text-orange-400" />,
     color: "from-orange-500 to-red-600"
+  },
+  {
+    title: "Smart Campus Hub",
+    category: "React | Spring Boot | MySQL",
+    description: "Full-stack Smart Campus Operations Hub to manage campus facilities, room bookings, maintenance tickets, and real-time notifications. Features secure authentication and authorization using JWT and Google OAuth2.",
+    tech: ["React", "Spring Boot", "MySQL", "JWT", "OAuth2"],
+    github: "https://github.com/Darshik-an/it3030-paf-2026-smart-campus-group-WE-117-1.2.git",
+    icon: <Building size={32} className="text-blue-400" />,
+    color: "from-blue-500 to-cyan-600"
+  },
+  {
+    title: "Stuzic – Study Planner",
+    category: "React | Firebase | Tailwind",
+    description: "Web app for task planning, study scheduling, reminders, and music playback during study sessions. Includes Mood & Music Recommendation module with form validation, Firebase Firestore storage, mood history tracking, and analytics.",
+    tech: ["React", "Tailwind CSS", "Firebase", "Playwright"],
+    github: "https://github.com/darsika4478/ITPM-STUZIC-web-app.git",
+    icon: <Music size={32} className="text-indigo-400" />,
+    color: "from-indigo-500 to-purple-600"
   }
 ];
 
