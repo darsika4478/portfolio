@@ -59,6 +59,33 @@ const projects = [
   }
 ];
 
+const experienceHighlights = [
+  {
+    title: "Full-Stack Delivery",
+    text: "Built web applications with Spring Boot, React.js, Node.js, Express.js, MongoDB, and MySQL.",
+  },
+  {
+    title: "Mobile Builds",
+    text: "Created Android apps using Java and Kotlin with clean interfaces and database integration.",
+  },
+  {
+    title: "API Design",
+    text: "Designed REST APIs for CRUD operations, authentication, and structured data handling.",
+  },
+  {
+    title: "Version Control",
+    text: "Used Git and GitHub for collaboration, code organization, and project tracking.",
+  },
+  {
+    title: "Engineering Practice",
+    text: "Applied OOP, MVC, debugging, testing, and problem-solving across academic work.",
+  },
+  {
+    title: "Agile Workflow",
+    text: "Practiced sprint planning, task breakdown, iterative development, and progress tracking.",
+  },
+];
+
 export default function Projects() {
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -83,6 +110,76 @@ export default function Projects() {
   return (
     <section id="projects" className="py-24 relative">
       <div className="container mx-auto px-6">
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: false, amount: 0.3 }}
+          className="mb-16"
+        >
+          <GlassCard className="overflow-hidden">
+            <div className="grid gap-0 lg:grid-cols-[0.9fr_1.1fr]">
+              <div className="relative p-8 md:p-10 border-b lg:border-b-0 lg:border-r border-white/10">
+                <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 via-transparent to-purple-500/10" />
+                <div className="relative">
+                  <p className="text-sm font-mono uppercase tracking-[0.3em] text-cyan-400/80 mb-4">
+                    Relevant Experience
+                  </p>
+                  <h2 className="text-3xl md:text-4xl font-bold font-heading mb-4">
+                    Software Engineering Project Experience
+                  </h2>
+                  <p className="text-white/60 max-w-xl mb-6 leading-relaxed">
+                    A mix of academic and personal work that spans web, mobile, APIs,
+                    and collaborative development practices.
+                  </p>
+
+                  <div className="flex flex-wrap gap-3">
+                    <span className="px-4 py-2 rounded-full bg-cyan-500/10 border border-cyan-400/20 text-cyan-300 text-sm">
+                      Academic & Personal Projects
+                    </span>
+                    <span className="px-4 py-2 rounded-full bg-white/5 border border-white/10 text-white/75 text-sm">
+                      2024 – Present
+                    </span>
+                  </div>
+
+                  <div className="mt-8 grid grid-cols-3 gap-3">
+                    {[
+                      "Web",
+                      "Android",
+                      "APIs",
+                    ].map((item) => (
+                      <div
+                        key={item}
+                        className="rounded-2xl border border-white/10 bg-white/5 px-4 py-5 text-center"
+                      >
+                        <div className="text-lg font-semibold text-white">{item}</div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
+
+              <div className="p-8 md:p-10">
+                <div className="grid gap-4 md:grid-cols-2">
+                  {experienceHighlights.map((item, index) => (
+                    <div
+                      key={index}
+                      className="rounded-2xl border border-white/10 bg-white/5 p-5 backdrop-blur-sm transition-transform duration-300 hover:-translate-y-1 hover:border-cyan-400/30"
+                    >
+                      <div className="h-1 w-16 rounded-full bg-gradient-to-r from-cyan-400 to-purple-500 mb-4" />
+                      <h3 className="text-lg font-semibold text-white mb-2">
+                        {item.title}
+                      </h3>
+                      <p className="text-sm text-white/60 leading-relaxed">
+                        {item.text}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </GlassCard>
+        </motion.div>
 
         <motion.div
           initial={{ opacity: 0, y: 20 }}

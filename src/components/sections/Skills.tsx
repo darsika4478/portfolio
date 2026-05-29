@@ -4,23 +4,38 @@ import GlassCard from "../ui/GlassCard";
 const skillCategories = [
   {
     title: "Frontend",
-    skills: ["React", "Tailwind CSS", "HTML5", "CSS3", "JavaScript", "Figma"],
+    skills: ["HTML", "CSS", "JavaScript", "Tailwind CSS", "XML", "React"],
     color: "border-cyan-500/50"
   },
   {
     title: "Backend",
-    skills: ["Node.js", "Express.js", "Java", "PHP", "Python"],
+    skills: ["PHP", "Java", "C++", "Node.js", "Express.js", "Spring Boot"],
     color: "border-blue-500/50"
   },
   {
-    title: "Database",
-    skills: ["MongoDB", "MySQL", "Data Structures", "Algorithms"],
+    title: "Databases & Cloud Services",
+    skills: ["MySQL", "MongoDB", "Firebase"],
     color: "border-purple-500/50"
   },
   {
-    title: "Mobile & Tools",
-    skills: ["Android Studio", "Kotlin", "XML", "Git", "GitHub"],
+    title: "Mobile Development",
+    skills: ["Android Studio", "Kotlin", "Shared Preferences"],
     color: "border-pink-500/50"
+  },
+  {
+    title: "Testing & API Tools",
+    skills: ["Playwright", "Postman"],
+    color: "border-emerald-500/50"
+  },
+  {
+    title: "DevOps & Tools",
+    skills: ["Git", "GitHub", "Docker", "Figma"],
+    color: "border-orange-500/50"
+  },
+  {
+    title: "Concepts & Methodology",
+    skills: ["OOP", "MVC", "Data Structures & Algorithms", "REST APIs", "Agile Methodology"],
+    color: "border-sky-500/50"
   }
 ];
 
@@ -66,7 +81,7 @@ export default function Skills() {
               viewport={{ once: false, amount: 0.3 }}
               className="text-4xl font-bold font-heading mb-10 text-white"
             >
-              Technical <span className="text-cyan-400">Expertise</span>
+              Technical <span className="text-cyan-400">Skills</span>
             </motion.h2>
 
             <motion.div 
