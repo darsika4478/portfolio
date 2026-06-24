@@ -51,7 +51,7 @@ function StarField(props: ThreeElements["group"]) {
 /* Hero Section */
 export default function Hero() {
   const photoRef = useRef<HTMLDivElement | null>(null);
-  const cvUrl = new URL("../../assets/Darsika_cv.pdf", import.meta.url).href;
+  const cvUrl = "/Darsika_Nagaraja_cv.pdf";
 
 
 
@@ -104,7 +104,9 @@ export default function Hero() {
 
             <motion.a
               href={cvUrl}
-              download
+              download="Darsika_Nagaraja_CV.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               className="px-8 py-4 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-bold text-lg flex items-center gap-2 shadow-md"
             >
               Download CV <Download size={20} />

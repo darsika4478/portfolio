@@ -69,10 +69,13 @@ export default function About() {
             
             <motion.div variants={containerVariants} className="space-y-4 text-lg text-white/70 font-light leading-relaxed">
               <motion.p variants={itemVariants}>
-                I am a motivated and detail-oriented Information Technology undergraduate at SLIIT with hands-on experience in full-stack development, mobile app development, and modern web technologies.
+                I am a third-year Information Technology undergraduate at SLIIT with experience in full-stack and Android application development. I have worked with Spring Boot, the MERN stack, Java, Kotlin, JavaScript, REST APIs, and databases to build user-friendly and scalable applications.
               </motion.p>
               <motion.p variants={itemVariants}>
-                Skilled in building scalable, user-friendly applications and implementing end-to-end solutions across web and mobile platforms. My passion lies in solving complex problems through clean code and intuitive design.
+                I enjoy learning new technologies, solving problems, and working in collaborative Agile teams. I also have a strong interest in telecommunications and digital platforms.
+              </motion.p>
+              <motion.p variants={itemVariants}>
+                I am looking for a Software Engineering Internship where I can further develop my technical skills and contribute to real-world projects.
               </motion.p>
             </motion.div>
 
